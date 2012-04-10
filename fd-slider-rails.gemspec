@@ -9,15 +9,12 @@ Gem::Specification.new do |s|
   s.version     = FdSliderRails::VERSION
   s.authors     = ["Marten Veldthuis"]
   s.email       = ["marten@veldthuis.com"]
-  s.homepage    = "TODO"
+  s.homepage    = "https://github.com/marten/fd-slider-rails"
   s.summary     = "Rails Engine version of the fd-slider JavaScript"
-  s.description = "TODO: Description of FdSliderRails."
+  s.description = "fd-slider is an unobtrusive javascript to enable the <input type='range'> HTML5 form controls in old browsers. This gem packages that script up as a Rails 3 Engine."
 
-  s.files = Dir["{app,config,db,lib}/**/*"] + ["MIT-LICENSE", "Rakefile", "README.rdoc"]
-  s.test_files = Dir["test/**/*"]
+  s.files = Dir["{lib}/**/*"] + ["MIT-LICENSE", "Rakefile", "README.rdoc"]
+  s.test_files = []
 
   s.add_dependency "rails", "~> 3.1"
-  # s.add_dependency "jquery-rails"
-
-  s.add_development_dependency "sqlite3"
 end
