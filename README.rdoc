@@ -27,4 +27,4 @@ That's it. Now all your <tt><input type="range"></tt> controls should come to li
 
 == Related
 
-http://www.frequency-decoder.com/
+https://github.com/freqdec/fd-slider
