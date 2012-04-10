@@ -13,7 +13,7 @@ Gem::Specification.new do |s|
   s.summary     = "Rails Engine version of the fd-slider JavaScript"
   s.description = "fd-slider is an unobtrusive javascript to enable the <input type='range'> HTML5 form controls in old browsers. This gem packages that script up as a Rails 3 Engine."
 
-  s.files = Dir["{lib}/**/*"] + ["MIT-LICENSE", "Rakefile", "README.rdoc"]
+  s.files = Dir["lib/**/*"] + Dir["vendor/**/*"] + ["MIT-LICENSE", "Rakefile", "README.rdoc"]
   s.test_files = []
 
   s.add_dependency "rails", "~> 3.1"
