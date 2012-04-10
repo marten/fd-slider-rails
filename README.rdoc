@@ -1,3 +1,30 @@
 = FdSliderRails
 
-This project rocks and uses MIT-LICENSE.
+A Rails Engine version of Frequency Decoders' Unobtrusive Accessible Slider.
+
+I've packaged up the PNG-variant, because it seemed simpler.
+
+== Installation
+
+In your Gemfile:
+
+    group :assets do
+      # other stuff
+      gem 'fd-slider-rails'
+    end
+
+== Usage
+
+In your application.js:
+
+    //= require fd-slider.min
+
+In your application.scss:
+
+    @include fd-slider
+
+That's it. Now all your <tt><input type="range"></tt> controls should come to life in old browsers.
+
+== Related
+
+http://www.frequency-decoder.com/
